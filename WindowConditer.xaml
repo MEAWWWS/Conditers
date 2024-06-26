@@ -1,0 +1,40 @@
+﻿<Window x:Class="Conditer.WindowConditer"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Conditer"
+        mc:Ignorable="d"
+        Title="WindowConditer" Height="450" Width="900">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="60*"/>
+            <ColumnDefinition Width="40*"/>
+        </Grid.ColumnDefinitions>
+        <DataGrid x:Name="dataGridProducts" d:ItemsSource="{d:SampleData ItemCount=5}" AutoGenerateColumns="False" IsReadOnly="True" FontSize="16" SelectionChanged="dataGridProducts_SelectionChanged">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Манная крупа" Binding="{Binding CerealsCount}" Width="Auto"/>
+                <DataGridTextColumn Header="Масло" Binding="{Binding ButterCount}" Width="Auto"/>
+                <DataGridTextColumn Header="Сахар" Binding="{Binding SugarCount}" Width="Auto"/>
+                <DataGridTextColumn Header="Какао" Binding="{Binding CacaoCount}" Width="Auto"/>
+                <DataGridTextColumn Header="Вода" Binding="{Binding WaterCount}" Width="*"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <TextBlock Grid.Column="1" Text="Сахар" HorizontalAlignment="Left" Margin="23,56,0,0" TextWrapping="Wrap" FontSize="20" VerticalAlignment="Top"/>
+        <TextBlock Grid.Column="1" Text="Манка" HorizontalAlignment="Left" Margin="23,92,0,0" TextWrapping="Wrap" FontSize="20" VerticalAlignment="Top"/>
+        <TextBlock Grid.Column="1" Text="Масло" HorizontalAlignment="Left" Margin="23,126,0,0" TextWrapping="Wrap" FontSize="20" VerticalAlignment="Top"/>
+        <TextBlock Grid.Column="1" Text="Вода" HorizontalAlignment="Left" Margin="23,158,0,0" TextWrapping="Wrap" FontSize="20" VerticalAlignment="Top"/>
+        <TextBlock Grid.Column="1" Text="Какао" HorizontalAlignment="Left" Margin="23,194,0,0" TextWrapping="Wrap" FontSize="20" VerticalAlignment="Top"/>
+
+        <TextBox x:Name="textBoxSugarCount" Grid.Column="1" HorizontalAlignment="Left" Margin="96,56,0,0" TextWrapping="Wrap" MaxLength="4" VerticalAlignment="Top" Width="120" FontSize="20" PreviewTextInput="textBoxSugarCount_PreviewTextInput" PreviewKeyDown="textBoxSugarCount_PreviewKeyDown"/>
+        <TextBox x:Name="textBoxCerealsCount" Grid.Column="1" HorizontalAlignment="Left" Margin="96,90,0,0" TextWrapping="Wrap" MaxLength="4" VerticalAlignment="Top" Width="120" FontSize="20" PreviewTextInput="textBoxSugarCount_PreviewTextInput" PreviewKeyDown="textBoxSugarCount_PreviewKeyDown"/>
+        <TextBox x:Name="textBoxButterCount" Grid.Column="1" HorizontalAlignment="Left" Margin="96,124,0,0" TextWrapping="Wrap" MaxLength="4" VerticalAlignment="Top" Width="120" FontSize="20" PreviewTextInput="textBoxSugarCount_PreviewTextInput" PreviewKeyDown="textBoxSugarCount_PreviewKeyDown"/>
+        <TextBox x:Name="textBoxWaterCount" Grid.Column="1" HorizontalAlignment="Left" Margin="96,158,0,0" TextWrapping="Wrap" MaxLength="4" VerticalAlignment="Top" Width="120" FontSize="20" PreviewTextInput="textBoxSugarCount_PreviewTextInput" PreviewKeyDown="textBoxSugarCount_PreviewKeyDown"/>
+        <TextBox x:Name="textBoxCacaoCount" Grid.Column="1" HorizontalAlignment="Left" Margin="96,192,0,0" TextWrapping="Wrap" MaxLength="4" VerticalAlignment="Top" Width="120" FontSize="20" PreviewTextInput="textBoxSugarCount_PreviewTextInput" PreviewKeyDown="textBoxSugarCount_PreviewKeyDown"/>
+
+        <Button x:Name="buttonEdit" Grid.Column="1" Content="Изменить" HorizontalAlignment="Left" Margin="10,299,0,0" FontSize="20" VerticalAlignment="Top" Click="buttonEdit_Click"/>
+        <Button x:Name="buttonUpdate" Grid.Column="1" Content="Обновить" HorizontalAlignment="Left" Margin="129,299,0,0" FontSize="20" VerticalAlignment="Top" Click="buttonUpdate_Click" />
+        <Button x:Name="buttonCalculateCandyCount" Grid.Column="1" Content="Посчитать кол-во конфет" HorizontalAlignment="Left" Margin="10,335,0,0" FontSize="20" VerticalAlignment="Top" Click="buttonCalculateCandyCount_Click"/>
+        <Button x:Name="buttonCalculateDistancePrice" Grid.Column="1" Content="Посчитать логистику" HorizontalAlignment="Left" Margin="10,371,0,0" FontSize="20" VerticalAlignment="Top" Click="buttonCalculateDistancePrice_Click"/>
+    </Grid>
+</Window>

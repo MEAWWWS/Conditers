@@ -1,0 +1,95 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\sereg\\source\\repos\\Conditer\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C2FBC6D3-E5FB-4C67-80DD-727528EC8D4D}|Conditer.csproj|c:\\users\\sereg\\source\\repos\\conditer\\windowconditer.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2FBC6D3-E5FB-4C67-80DD-727528EC8D4D}|Conditer.csproj|solutionrelative:windowconditer.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2FBC6D3-E5FB-4C67-80DD-727528EC8D4D}|Conditer.csproj|c:\\users\\sereg\\source\\repos\\conditer\\windowconditer.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C2FBC6D3-E5FB-4C67-80DD-727528EC8D4D}|Conditer.csproj|solutionrelative:windowconditer.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C13DE849-0A1D-4412-A383-852FCDAF0AE2}|..\\ConfectioneryFactoryDll\\ConfectioneryFactoryDll.csproj|c:\\users\\sereg\\source\\repos\\confectioneryfactorydll\\garbage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WindowConditer.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\sereg\\source\\repos\\Conditer\\WindowConditer.xaml.cs",
+              "RelativeDocumentMoniker": "WindowConditer.xaml.cs",
+              "ToolTip": "C:\\Users\\sereg\\source\\repos\\Conditer\\WindowConditer.xaml.cs",
+              "RelativeToolTip": "WindowConditer.xaml.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAASwBwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T14:43:13.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WindowConditer.xaml",
+              "DocumentMoniker": "C:\\Users\\sereg\\source\\repos\\Conditer\\WindowConditer.xaml",
+              "RelativeDocumentMoniker": "WindowConditer.xaml",
+              "ToolTip": "C:\\Users\\sereg\\source\\repos\\Conditer\\WindowConditer.xaml",
+              "RelativeToolTip": "WindowConditer.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-26T14:21:03.739Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Garbage.cs",
+              "DocumentMoniker": "C:\\Users\\sereg\\source\\repos\\ConfectioneryFactoryDll\\Garbage.cs",
+              "RelativeDocumentMoniker": "..\\ConfectioneryFactoryDll\\Garbage.cs",
+              "ToolTip": "C:\\Users\\sereg\\source\\repos\\ConfectioneryFactoryDll\\Garbage.cs",
+              "RelativeToolTip": "..\\ConfectioneryFactoryDll\\Garbage.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T14:41:37.34Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

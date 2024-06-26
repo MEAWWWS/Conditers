@@ -1,0 +1,21 @@
+﻿<Window x:Class="Conditer.WindowCalculateDistance"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Conditer"
+        mc:Ignorable="d"
+        Height="300" Width="300" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="80*"/>
+            <RowDefinition Height="20*"/>
+        </Grid.RowDefinitions>
+        <TextBlock HorizontalAlignment="Left" Margin="59,29,0,0" TextWrapping="Wrap" Text="Дистанция(км)" VerticalAlignment="Top" FontSize="20"/>
+        <TextBlock HorizontalAlignment="Left" Margin="59,0,0,0" TextWrapping="Wrap" Text="Цена километра" VerticalAlignment="Center" FontSize="20"/>
+        <TextBox x:Name="textBoxDistance" Grid.Row="0" HorizontalAlignment="Left" Margin="59,67,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120" MaxLength="10" FontSize="20" PreviewTextInput="textBoxSugarCount_PreviewTextInput" PreviewKeyDown="textBoxSugarCount_PreviewKeyDown"/>
+        <TextBox x:Name="textBoxKilometrPrice" Grid.Row="0" HorizontalAlignment="Left" Margin="59,142,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120" MaxLength="10" FontSize="20" PreviewTextInput="textBoxSugarCount_PreviewTextInput" PreviewKeyDown="textBoxSugarCount_PreviewKeyDown" />
+        <Button x:Name="buttonCalculate" Content="Подсчитать" HorizontalAlignment="Left" Margin="59,0,0,0" Grid.Row="1" VerticalAlignment="Center" FontSize="20" Click="buttonCalculate_Click"/>
+
+    </Grid>
+</Window>
